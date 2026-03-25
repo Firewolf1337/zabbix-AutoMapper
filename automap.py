@@ -157,9 +157,9 @@ def main(
         zabbix_scheme=zabbix_scheme.value,
         zabbix_folder=zabbix_folder,
         map_name=zabbix_map_name,
-        map_layout=map_layout.value, 
+        map_layout=map_layout.value,
         host_group_name=zabbix_host_group_name,
-        zabbix_api= zabbix_api,
+        zabbix_api=zabbix_api,
     )
 
     logger.debug(f"{automaper.graph.graph.vs.attribute_names()}")
